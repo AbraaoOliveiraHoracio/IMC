@@ -1,14 +1,14 @@
 body {
   background-color: rgb(158, 153, 153);
   display: flex;
-  width: 300vw;
-  height: 600vh;
+  width: 50vw;
+  height: 100vh;
   align-items: center;
   text-align: center;
 }
 .container {
   border-color: rgba(41, 39, 39, 0.733);
-  background-color: rgb(110, 102, 102);
+  background-color: rgb(124, 110, 110);
   display: flex;
   border-style: solid;
   flex-direction: column;
@@ -35,9 +35,20 @@ button {
   width: 200px;
   height: 100px;
   font: bold 1.2rem serif;
-  background: #746666;
+  background: #5f5656;
   outline: none;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+}
+button:hover {
+  width: 200px;
+  height: 100px;
+  font: bold 1.2rem serif;
+  background: #3a3636;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: antiquewhite;
 }
