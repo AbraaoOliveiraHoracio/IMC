@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(158, 153, 153);
+  display: flex;
+  width: 300vw;
+  height: 600vh;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  border-color: rgba(41, 39, 39, 0.733);
+  background-color: rgb(110, 102, 102);
+  display: flex;
+  border-style: solid;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+.input  {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+}
+.input input  {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+}
+button {
+  width: 200px;
+  height: 100px;
+  font: bold 1.2rem serif;
+  background: #746666;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
